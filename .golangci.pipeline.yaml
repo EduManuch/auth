@@ -12,7 +12,8 @@ linters:
     - unused
   settings:
     govet:
-      shadow: true
+      shadow: 
+        strict: true
     goconst:
       min-len: 2
       min-occurrences: 2
