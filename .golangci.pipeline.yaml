@@ -5,7 +5,6 @@ linters:
   enable:
     - errcheck
     - goconst
-    - goimports
     - gosec
     - govet
     - ineffassign
