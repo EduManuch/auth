@@ -26,14 +26,4 @@ run:
   tests: true
 
 
-linters-settings:
-  govet:
-    shadow: true
-  dupl:
-    threshold: 100
-  goconst:
-    min-len: 2
-    min-occurrences: 2
-
-
 
