@@ -10,6 +10,14 @@ linters:
     - ineffassign
     - revive
     - unused
+  settings:
+    govet:
+      shadow: true
+    goconst:
+      min-len: 2
+      min-occurrences: 2
+    dupl:
+      threshold: 100
 
 output:
   formats: 
