@@ -11,14 +11,15 @@ linters:
     - revive
     - unused
   settings:
-    govet:
-      shadow: 
-        strict: true
+
     goconst:
       min-len: 2
       min-occurrences: 2
     dupl:
       threshold: 100
+    govet:
+      shadow: 
+        strict: true
 
 output:
   formats: 
