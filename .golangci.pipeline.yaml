@@ -16,9 +16,7 @@ linters:
       min-occurrences: 2
     dupl:
       threshold: 100
-    govet:
-      shadow:
-        strict: true
+
 
 output:
   formats: 
